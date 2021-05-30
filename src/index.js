@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import { TodoApp } from './components/08-useReducer/TodoApp';
 
 
@@ -16,6 +17,7 @@ import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { CallBackHook } from './components/06-memos/CallBackHook';
 // import { Padre } from './components/07-tarea-memo/Padre';
+// import { RegisterForm } from './components/02-useEfect/RegisterForm';
 
 ReactDOM.render(
   <TodoApp/>,
