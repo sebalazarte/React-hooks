@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppRouter debe mostrarse correctamente 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      aria-current="page"
+      className="navbar-brand active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      useContext
+    </a>
+    <button
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-target="#navbarText"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarText"
+    >
+      <ul
+        className="navbar-nav mr-auto"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current="page"
+            className="nav-link active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+      </ul>
+      <a
+        aria-current={null}
+        className="btn btn-outline-info my-2 my-sm-0"
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+      <a
+        aria-current={null}
+        className="btn btn-outline-info my-2 my-sm-0 ml-3"
+        href="/register"
+        onClick={[Function]}
+      >
+        Register
+      </a>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <div>
+      <h1>
+        Home Screen
+      </h1>
+      <hr />
+      <pre
+        className="blockquote"
+      >
+        {
+   "id": 123,
+   "name": "Sebastian",
+   "email": "sebalazarte@outlook.com"
+}
+      </pre>
+    </div>
+  </div>
+</div>
+`;
