@@ -1,7 +1,7 @@
 export const todoRedurer = (state = [], action) => {
     switch (action.type) {
         case 'add':
-            console.log(action.payload);
+            // console.log(action.payload);
             return [...state, action.payload];
         case 'delete':
             return state.filter(todo => todo.id !== action.payload);
